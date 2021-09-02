@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+     <head>
+          <meta charset="UTF-8" />
+          <meta
+               name="viewport"
+               content="width=device-width, initial-scale=1.0"
+          />
+          <title>Prashanth Dussa</title>
+          <link rel="stylesheet" type="text/css" href="/index.css" />
+          <link
+               rel="icon"
+               href="icon.png"
+               type="image/png"
+               style="width: 100%; height: 100%"
+          />
+          <link
+               rel="stylesheet"
+               href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+          />
+          <link
+               rel="stylesheet"
+               href="https://fonts.googleapis.com/css?family=Open+Sans|Poppins|Goldman&effect=anaglyph|fire"
+          />
+          <script
+               type="text/javascript"
+               src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.7.1.min.js"
+          ></script>
+          <script>
+               $(document).on("click", 'a[href^="#"]', function (event) {
+                    event.preventDefault();
+
+                    $("html, body").animate(
+                         {
+                              scrollTop: $($.attr(this, "href")).offset().top,
+                         },
+                         1500
+                    );
+               });
+               $(window).on("load", function () {
+                    $(".loader-wrapper").fadeOut("slow");
+               });
+          </script>
+     </head>
+     <body>
+          <div class="loader-wrapper" id="loader-wrapper">
+               <span class="loader"><span class="loader-inner"></span></span>
+          </div>
+          <div class="topnav" id="myTopnav">
+               <a href="#intro" class="active">Introduction</a>
+               <a href="#education">Education</a>
+               <a href="#otherInterests">Other Interests</a>
+               <a href="#contact">Contact</a>
+               <a href="#socialMedia">Social Media</a>
+               <a
+                    href="javascript:void(0);"
+                    class="icon"
+                    onclick="myFunction()"
+               >
+                    <i class="fa fa-bars"></i>
+               </a>
+          </div>
+          <br />
+          <div class="container">
+               <div id="intro">
+                    <h1>Introduction</h1>
+                    <h2>Hello 😄</h2>
+                    <br /><br />
+                    <h2>I am&nbsp; <span>Prashanth Dussa</span>,</h2>
+                    <br /><br />
+                    <p>
+                         I come from a town called
+                         <span>Jangaon</span> which is located in the state of
+                         <span>Telangana</span>. Currently, Iam pursuing my
+                         <span>Bachelor's Degree</span> in
+                         <span>Computer Science and Engineering </span> from
+                         <span
+                              >Dr.B.R Ambedkar National Institute of Technology </span
+                         >, located in Jalandhar city of Punjab. Iam a
+                         <span>Web Developer</span>. I have a considerable
+                         knowledge in Programming languages like <span>C</span>,
+                         <span>C++</span>, <span>Java</span>,
+                         <span>Java Script</span> and other technologies
+                         including <span>HTML</span>, <span>CSS</span>,
+                         <span>NodeJS</span> and <span>MongoDB</span>. I am also
+                         familiar with Web Deployement platforms like
+                         <span>Git</span>, <span>GitHub</span> and
+                         <span>Heroku</span>.
+                    </p>
+               </div>
+               <div id="education">
+                    <h1>Education</h1>
+                    <p>
+                         <span class="a">Secondary</span><br />School:
+                         <span>&nbsp;&nbsp;Scholars grammar high school</span
+                         ><br />Year of completion:<span>&nbsp;&nbsp;2015</span
+                         ><br />CGPA:<span>&nbsp;&nbsp;9.8</span
+                         ><br />Location:<span>&nbsp;&nbsp;Jangaon</span>
+                         <br /><br /><span class="a">Senior Secondary</span
+                         ><br />College:<span
+                              >&nbsp;&nbsp;Narayana Junior college</span
+                         ><br />Year of completion:<span>&nbsp;&nbsp;2017</span
+                         ><br />Marks:<span>&nbsp;&nbsp;985/1000</span
+                         ><br />Location:<span>&nbsp;&nbsp;Hyderabad</span
+                         ><br /><br /><span class="a">Bachelor's</span
+                         ><br />College:<span
+                              >&nbsp;&nbsp;D.r B.R Ambedkar National Institute
+                              of Technology</span
+                         ><br />Year of completion:<span>&nbsp;&nbsp;2017-present</span
+                         ><br />CGPA:<span>&nbsp;&nbsp;7.07</span
+                         ><br />Location:<span>&nbsp;&nbsp;Jalandhar</span>
+                    </p>
+               </div>
+               <div id="otherInterests">
+                    <h1>Other Interests</h1>
+                    <p>
+                         <span class="a">Sports</span><br /><span
+                              >Cricket<br />Badminton<br />Lawn Tennis</span
+                         ><br /><br /><span class="a">Entertainment</span
+                         ><br /><span>Movies<br />Tv Shows<br />Songs</span>
+                    </p>
+               </div>
+               <br />
+               <div id="contact">
+                    <h1>Contact</h1>
+                    <p>
+                         <span class="a">Email</span><br /><span
+                              >prashanth.dussa05@gmail.com</span
+                         ><br /><br /><span class="a">Mobile</span><br /><span>7032981227</span>                       
+                    </p>
+                    
+               </div>
+               <div id="socialMedia">
+                    <h1>Social Media</h1>
+                     <a href="https://www.linkedin.com/in/prashanth-dussa-00a470190/" class="fa fa-linkedin" id="linkedIn"></a>
+                     <a href="https://github.com/PrashanthDussa" class="fa fa-github" id="github"></a>
+                      <a href="https://www.instagram.com/prashanthdussa/" class="fa fa-instagram" id="insta"></a>
+               </div>
+              
+               <script>
+                    function myFunction() {
+                         var x = document.getElementById("myTopnav");
+                         if (x.className === "topnav") {
+                              x.className += " responsive";
+                         } else {
+                              x.className = "topnav";
+                         }
+                    }
+               </script>
+               <br />
+               <h2><a href="#myTopnav" id="foot">Go Top</a></h2>
+          </div>
+     </body>
+</html>
